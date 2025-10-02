@@ -1,9 +1,7 @@
 "use client"
 import ArrowIcon from "@/assets/arrow-right.svg"
-import cogImage from "@/assets/cog.png"
-import Image from "next/image";
-import cylinderImage from "@/assets/cylinder.png"
-import noodleImage from "@/assets/noodle.png"
+import cogImage from "@/assets/kalam.png"
+import books from "@/assets/books.png"
 import {motion, useScroll, useTransform} from "framer-motion"
 import { useRef } from "react";
 
@@ -45,15 +43,10 @@ export const Hero = () => {
               ease:"easeInOut"
 
             }}></motion.img>
-            <motion.img src={cylinderImage.src} alt="cyclinder" width={220} height={220}
-            className="hidden md:block -top-16 -left-10 md:absolute"
+            
+            <motion.img src={books.src} alt="books" width={360} height={360}
+            className="hidden lg:block absolute top-[274px] left-[380px] rotate-[30deg]" 
             style={{
-              translateY:translateY
-            }}/>
-            <motion.img src={noodleImage.src} alt="noodle" width={220} height={220}
-            className="hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]" 
-            style={{
-              rotate:30,
               translateY: translateY
             }}/>
           </div>

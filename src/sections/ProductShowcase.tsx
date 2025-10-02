@@ -1,7 +1,7 @@
 "use client"
 import productImage from "@/assets/dashpage.png"
-import pyrmaidImage from "@/assets/pyramid.png"
-import tubeImage from "@/assets/tube.png"
+import pyrmaidImage from "@/assets/tablet.png"
+import tubeImage from "@/assets/laptop.png"
 import Image from "next/image";
 import {motion, useScroll,useTransform} from "framer-motion"
 import { useRef } from "react";
