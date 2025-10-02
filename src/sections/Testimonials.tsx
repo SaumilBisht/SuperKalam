@@ -123,7 +123,7 @@ export const Testimonials = () => {
             <div className="tag">Testimonials</div>
           </div>
           <h2 className="section-title mt-5">What our users say</h2>
-          <p className="section-desc mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum totam excepturi consequatur commodi, ea quis dolore ipsa d</p>
+          <p className="section-desc mt-5">Trust your peers</p>
         </div>
 
         <div className="flex justify-center gap-6 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] mt-10 max-h-[780px] overflow-hidden">

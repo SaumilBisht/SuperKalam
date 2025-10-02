@@ -22,11 +22,11 @@ export const Hero = () => {
             <div className="tag">
               SuperKalam is Here
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold  tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">Pathway to boost your Productivity</h1>
-            <p className="text-xl text-[#010D3E] mt-6 tracking-tight">Bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eos perspiciatis suscipit! Consequuntur reprehenderit, minima a placeat quos sed facere corporis unde ut ducimus ea laboriosam in illum modi magni.</p>
+            <h1 className="text-5xl md:text-7xl font-bold  tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">Everything you need for UPSC Preparation</h1>
+            <p className="text-xl text-[#010D3E] mt-6 tracking-tight">Your Personal AI Mentor that teaches, instantly evaluates Handwritten Answers & builds Daily Discipline</p>
 
             <div className="flex gap-1 items-center mt-[30px]">
-              <button className="btn btn-primary">Get for free</button>
+              <button className="btn btn-primary">Get started for free</button>
               <button className="btn btn-text gap-1">
                 <span>Learn More</span>
                 <ArrowIcon className="w-5 h-5"></ArrowIcon>
@@ -46,7 +46,7 @@ export const Hero = () => {
 
             }}></motion.img>
             <motion.img src={cylinderImage.src} alt="cyclinder" width={220} height={220}
-            className="hidden md:block -top-8 -left-32 md:absolute"
+            className="hidden md:block -top-16 -left-10 md:absolute"
             style={{
               translateY:translateY
             }}/>

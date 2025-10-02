@@ -1,5 +1,5 @@
 "use client"
-import productImage from "@/assets/product-image.png"
+import productImage from "@/assets/dashpage.png"
 import pyrmaidImage from "@/assets/pyramid.png"
 import tubeImage from "@/assets/tube.png"
 import Image from "next/image";
@@ -19,10 +19,12 @@ export const ProductShowcase = () => {
       <div className="container">
         <div className="section-heading">
           <div className="flex justify-center">
-            <div className="tag">Boost your Productivity</div>
+            <div className="tag">Boost Your Learning Journey</div>
           </div>
-          <h2 className="section-title mt-5">A more effectve way to track progress</h2>
-          <p className="section-desc mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni beatae quod, aspernatur modi sapiente aliquam quis enim et laborum nisi. Obcaecati a ipsam omnis reprehenderit similique temporibus tempora quo!</p>
+          <h2 className="section-title mt-5">Cover 100% Prelims & Mains syllabus</h2>
+          <p className="section-desc mt-5">
+            Stay on top of your goals with SuperKalam’s personalized learning dashboard. Our AI-driven insights help you understand your strengths, identify areas for growth, and keep you motivated with real-time feedback.
+          </p>
           
           <div className="relative">
             <motion.img src={productImage.src} alt="Product image" className="mt-10"/>

@@ -11,46 +11,43 @@ const pricingTiers = [
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "2GB storage",
-      "Integrations",
-      "Basic support",
+      "GS modules for 100% syllabus",
+      "Daily Current Affairs",
+      "AI mentorship & doubt resolution",
+      "Detailed Progress Report",
+      "Daily Leaderboard",
     ],
   },
   {
     title: "Pro",
-    monthlyPrice: 9,
+    monthlyPrice: 3999,
     buttonText: "Sign up now",
     popular: true,
     inverse: true,
     features: [
-      "Up to 50 project members",
-      "Unlimited tasks and projects",
-      "50GB storage",
-      "Integrations",
-      "Priority support",
-      "Advanced support",
+      "GS modules for 100% syllabus",
+      "Daily Current Affairs",
+      "AI mentorship & doubt resolution",
+      "Unlimited MCQ Practice on any topic",
+      "Unlimited Prelims PYQ Practice",
       "Export support",
     ],
   },
   {
     title: "Business",
-    monthlyPrice: 19,
+    monthlyPrice: 5699,
     buttonText: "Sign up now",
     popular: false,
     inverse: false,
     features: [
-      "Up to 5 project members",
-      "Unlimited tasks and projects",
-      "200GB storage",
-      "Integrations",
-      "Dedicated account manager",
-      "Custom fields",
-      "Advanced analytics",
-      "Export capabilities",
-      "API access",
-      "Advanced security features",
+      "Unlimited Mains Evaluation",
+      "AI mentorship & doubt resolution",
+      "Unlimited MCQ Practice on any topic",
+      "Unlimited Prelims and Mains PYQ Practice",
+      "For GS, Ethics, Essay & Optional",
+      "GS modules for 100% syllabus",
+      "Daily Current Affairs",
+      "Get Model Answer",
     ],
   },
 ];
@@ -85,7 +82,7 @@ export const Pricing = () => {
               </div>
               
               <div className=" flex items-baseline gap-4 mt-[30px]">
-                <span className="text-4xl text-bold tracking-tight leading-none">${monthlyPrice}</span>
+                <span className="text-4xl text-bold tracking-tight leading-none">Rs{monthlyPrice}</span>
                 <span className="tracking-tight font-bold text-black/50">/month</span>
               </div>
               <button className={twMerge("btn btn-primary w-full mt-[30px]",inverse===true && "bg-white text-black")}>{buttonText}</button>
