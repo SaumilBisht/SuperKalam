@@ -58,7 +58,7 @@ export const Pricing = () => {
       <div className="container">
         <div className="section-heading">
           <h2 className="section-title">Pricing</h2>
-          <p className="section-desc mt-5">Free forever . upgrade for unlimited class. better security</p>
+          <p className="section-desc mt-5">Upgrade for Unlimited Access & Peace of Mind</p>
         </div>
 
         <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
