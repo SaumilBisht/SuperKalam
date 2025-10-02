@@ -6,12 +6,12 @@ export const ProductShowcase = () => {
   return (
     <section className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] overflow-x-clip py-24">
       <div className="container">
-        <div className="max-w-[540px] mx-auto">
+        <div className="section-heading">
           <div className="flex justify-center">
             <div className="tag">Boost your Productivity</div>
           </div>
-          <h2 className="text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tight bg-gradient-to-b from-black to-[#001E80]  bg-clip-text text-transparent mt-5">A more effectve way to track progress</h2>
-          <p className="text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E] mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni beatae quod, aspernatur modi sapiente aliquam quis enim et laborum nisi. Obcaecati a ipsam omnis reprehenderit similique temporibus tempora quo!</p>
+          <h2 className="section-title mt-5">A more effectve way to track progress</h2>
+          <p className="section-desc mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni beatae quod, aspernatur modi sapiente aliquam quis enim et laborum nisi. Obcaecati a ipsam omnis reprehenderit similique temporibus tempora quo!</p>
           
           <div className="relative">
             <Image src={productImage} alt="Product image" className="mt-10"/>
